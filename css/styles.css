@@ -1,0 +1,107 @@
+
+#ribbon{
+    background-color: rgb(52, 52, 199) ;
+    background-image: repeating-linear-gradient(45deg, transparent, transparent 25px, rgb(53, 113, 148) 25px, rgba(47, 25, 143, 0.5) 40px);
+}
+
+#ribbon::after{
+    content: '';
+    background-color: transparent;
+    display: block;
+    height: 20px;
+    width: 50%;
+    margin: 0 auto;
+    position: relative;
+    left: auto;
+    margin-top: -40px;
+}
+
+#birthday{
+    background-color: rgb(52, 52, 199);
+    position: relative;
+    margin-top: -20px;
+    z-index: 10;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+#birthday img{
+    position: relative;
+    margin-top: -50px;
+}
+.text-shadow{
+    text-shadow: 0 3px 3px rgba(0,0,0,.6);
+}
+#separador-ribbon{
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    z-index: 2;
+}
+
+#separador-ribbon .content{
+    width: 150%;
+    height: 150px;
+    margin-left: -25%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+}
+.card-border{
+    border: solid 10px white;
+    border-radius: 20px;
+    overflow: hidden;
+    transition: all ease-out 0.2s;
+}
+.card-border:hover{
+    transform: scale(1.05);
+}
+#flores{
+    background: rgb(255,255,255);
+    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(99,196,255,1) 57%);
+    background-repeat: repeat-x;
+    background-size: 75%;
+    margin-top: -20px;
+}
+#separador-base{
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    z-index: 2;
+}
+#separador-base .content{
+    background: green;
+    width: 110%;
+    height: 100px;
+    margin-left: -5%;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+}
+#flores1{
+    background: rgb(255,255,255);
+    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(99,196,255,1) 57%);
+    background-repeat: repeat-x;
+    background-size: 100%;
+    margin-top: -20px;
+    
+}
+h2{
+    text-shadow: 2px 2px 2px gray;
+}
+h1{
+    text-shadow: 2px 2px 2px gray;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    }
+
+.pie{
+    text-align: center;
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem;
+}
